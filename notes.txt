@@ -1,3 +1,4 @@
-notizen hinzufügen
+- Die Möglichkeit Notizen zu machen (Vokabelliste o.Ä) hinzufügen
 
-gut um das sprechen zu üben, der fokus ist nicht so sehr aufs aufschreiben und merken, sondern aufs sprechen, häufige worte erkennen und nach und nach mehr erraten was man schon kann und ws nicht
+Nutzer sagen:
+gut um das sprechen zu üben, der fokus ist nicht so sehr aufs aufschreiben und merken, sondern aufs sprechen, häufige worte erkennen und nach und nach mehr erraten was man schon kann und was nicht
