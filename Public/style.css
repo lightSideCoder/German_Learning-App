@@ -1,0 +1,95 @@
+* *::before, *::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--bckgr_clr: #111312;
+	--forgr_clr: #9caf9a;
+	--scnd_clr: #586b56;
+}
+
+body {
+	font-family: "Lucida Console", monospace;
+	font-size: 3em;
+	background-color: var(--bckgr_clr);
+	color: var(--forgr_clr);
+}
+
+#translator {
+	padding: 50px;
+	width: 40%;
+}
+
+#translator h1 {
+	display: inline;
+}
+
+#translator button {
+	all: unset;
+	padding: 5px 20px;
+	border-radius: 5em;
+	background-color: var(--forgr_clr);
+	color: var(--bckgr_clr);
+}
+
+#translator input {
+	background-color: var(--forgr_clr);
+	margin: 1em 0 0 0;
+	display: block;
+	width: 100%;
+	font-size: 0.7em;
+	border-radius: 1em;
+	padding: 1.1em;
+}
+
+#translator input::placeholder {
+	font-size: 0.7em;
+}
+
+
+#translator button:hover {
+	background-color: var(--scnd_clr);
+	color: var(--bckgr_clr);
+}
+
+#translator #output {
+	margin: 2em 0 0 0;
+}
+
+#proverb {
+	padding: 50px;
+
+}
+
+#proverb #random {
+	all: unset;
+	padding: 5px 20px;
+	border-radius: 5em;
+	font-size: 0.7em;
+	background-color: var(--forgr_clr);
+	color: var(--bckgr_clr);
+}
+
+#proverb #random:hover {
+	background-color: var(--scnd_clr);
+}
+
+#proverb #proverbDisplay {
+	color: var(--forgr_clr);
+	border-radius: 1em;
+}
+
+#proverb #proverbDisplay:hover {
+	color: var(--scnd_clr);
+}
+
+#proverb #prompt {
+	display: inline;
+	font-size: 0.5em;
+}
+
+#proverb #proverbMeaning:hover {
+	color: var(--scnd_clr);
+}
