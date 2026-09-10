@@ -7,3 +7,5 @@ An App to learn german with
   
 - Random proverbs generator with explanantion of the proverb
     Currently supported target languages: French, German
+
+Backend with node.js and express
