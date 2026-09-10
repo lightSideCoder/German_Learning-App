@@ -1,5 +1,5 @@
 # German_Learning
-An App to learn german with
+A fullstack App to learn german with
 
 - Built in Translator using DeepL API
     Source languages: Any
